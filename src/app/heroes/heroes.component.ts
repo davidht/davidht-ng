@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
-//mport { HEROES } from '../mock-heroes';
+//import { HEROES } from '../mock-heroes';
 import { HeroService } from '../hero.service';
 
 @Component({
@@ -19,6 +19,7 @@ export class HeroesComponent implements OnInit {
   onNotify() {
     this.selectedHero = null;
   }
+  //constructor() {}
   constructor(private heroService: HeroService) {}
   ngOnInit() {
     this.getHeroes();
