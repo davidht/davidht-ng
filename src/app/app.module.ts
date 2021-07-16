@@ -14,6 +14,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
     LinkListComponent,
     HeroDetailComponent
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: []
 })
 export class AppModule {}
